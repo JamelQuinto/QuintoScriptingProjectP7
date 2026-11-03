@@ -31,6 +31,12 @@ public class IfStatements : MonoBehaviour
             //...do this
             print("Coffee is too hot.");
         }
+        //If it isn't, but the coffee temperature is less than the coldest drinking temperature
+        else if(coffeeTemperature < coldLimitTemperature)
+        {
+            //...do this
+            print("Coffee is too cold.");
+        }
         //If it is neither of those then...
         else
         {
